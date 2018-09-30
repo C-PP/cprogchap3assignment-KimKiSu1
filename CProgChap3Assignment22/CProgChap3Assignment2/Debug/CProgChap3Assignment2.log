@@ -1,3 +1,4 @@
 ﻿  platinum.cpp
-c:\users\user\documents\visual studio 2015\projects\cprogchap3assignment2\cprogchap3assignment2\platinum.cpp(26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\user\documents\visual studio 2015\projects\cprogchap3assignment2\cprogchap3assignment2\platinum.cpp(6): fatal error C1075: the left brace '{' was unmatched at the end of the file
+c:\users\김기수\desktop\cprogchap3assignment-kimkisu1-master\cprogchap3assignment-kimkisu1\cprogchap3assignment22\cprogchap3assignment2\platinum.cpp(27): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CProgChap3Assignment2.vcxproj -> C:\Users\김기수\Desktop\cprogchap3assignment-KimKiSu1-master\cprogchap3assignment-KimKiSu1\CProgChap3Assignment22\Debug\CProgChap3Assignment2.exe
+  CProgChap3Assignment2.vcxproj -> C:\Users\김기수\Desktop\cprogchap3assignment-KimKiSu1-master\cprogchap3assignment-KimKiSu1\CProgChap3Assignment22\Debug\CProgChap3Assignment2.pdb (Partial PDB)

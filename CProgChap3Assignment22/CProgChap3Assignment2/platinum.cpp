@@ -1,9 +1,10 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
-void function(void);
+void function(float weight);
 
 /* ANSI/ISO C function prototyping */
-int main(void) 
+int main(void)
 {
 	float weight;    /* user weight             */
 
@@ -20,15 +21,15 @@ int main(void)
 }
 
 void function(float weight)       /* start of function definition */
-	{
-		float value;     /* platinum equivalent     */
+{
+	float value;     /* platinum equivalent     */
 
-		value = 1700.0 * weight * 14.5833;
-		printf("weight = %f\n", weight);
-		//여기에 코딩하는 것이 필요함
-		printf("Your weight in platinum is worth $%.2f.\n", value); // 소숫점 두자리 출력
-		printf("You are easily worth that! If platinum prices drop,\n");
-		printf("eat more to maintain your value.\n");
-		system("pause");
-		return 0;
-	}
+	value = 1700.0 * weight * 14.5833;
+	printf("weight = %f\n", weight);
+	//여기에 코딩하는 것이 필요함
+	printf("Your weight in platinum is worth $%.2f.\n", value); // 소숫점 두자리 출력
+	printf("You are easily worth that! If platinum prices drop,\n");
+	printf("eat more to maintain your value.\n");
+	system("pause");
+	return;
+}
